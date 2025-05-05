@@ -3,7 +3,7 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
+    <div className='w-full overflow-x-clip'>
       <Home/>
     </div>
   )
