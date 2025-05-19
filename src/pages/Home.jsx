@@ -6,6 +6,8 @@ import ProjectSection from "../Sections/ProjectSection";
 import TeamSection from "../Sections/TeamSection";
 import ContactSection from "../Sections/ContactSection";
 import NavBar from "../components/NavBar";
+import LibraryApp from "../components/Footer";
+import StudentCVApp from "../components/CV";
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
         <TeamSection />
         <ContactSection />
       </main>
+      {/* <LibraryApp/> */}
+      <StudentCVApp/>
     </div>
   );
 }
